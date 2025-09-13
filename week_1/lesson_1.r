@@ -16,3 +16,9 @@ boxplot(WeightLoss~Group, data = WeightLossIncentive4,
 
 # compute summary statistics
 favstats(WeightLoss~Group, data = WeightLossIncentive4)
+
+# read miterm data
+midterm <- read.csv("lesson_1/data/MidtermFinal.csv")
+head(midterm)
+
+lm(midterm$Final ~ midterm$Midterm)
