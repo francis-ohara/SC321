@@ -1,2 +1,7 @@
 # OS-generated files
 *.DS_Store
+
+# Latex/PDF document-related files
+*.tex
+*.pdf
+*.synctex.gz
